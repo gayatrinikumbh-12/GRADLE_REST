@@ -8,7 +8,7 @@ import utilities.PropertyUtils;
 public class BaseTest {
 
 	@BeforeClass
-	void setBaseTest()
+	public void setBaseURI()
 	{
 		String baseUrl = PropertyUtils.getProperty("base.url");
         
