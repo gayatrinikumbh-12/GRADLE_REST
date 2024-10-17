@@ -1,0 +1,1 @@
+{"uuid":"f9520d47-e11a-4d0d-8afe-ad9cd6b912cb","name":"HealthCheckTest","children":["a6d07e7e-62c7-40dd-a258-e7fa797e1c21"],"befores":[{"name":"setBaseTest","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1729098183119,"stop":1729098183805}],"afters":[],"start":1729098183085,"stop":1729098184698}

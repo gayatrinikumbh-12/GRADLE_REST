@@ -7,7 +7,7 @@ import java.util.Properties;
 public class PropertyUtils {
 
 	public static String getProperty(String propertyName) {
-	    String configPropertyFilePath = "src/main/resources/config.properties";
+	    String configPropertyFilePath = "src/main/resources/data/config.properties";
 
 	    Properties properties = new Properties();
 	    try {
