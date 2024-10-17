@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-17T10:34:59 IST" name="Default suite" finished-at="2024-10-17T10:35:04 IST" duration-ms="4312">
+  <suite started-at="2024-10-17T11:23:39 IST" name="Default suite" finished-at="2024-10-17T11:23:43 IST" duration-ms="3955">
     <groups>
     </groups>
-    <test started-at="2024-10-17T10:34:59 IST" name="Default test" finished-at="2024-10-17T10:35:04 IST" duration-ms="4312">
+    <test started-at="2024-10-17T11:23:39 IST" name="Default test" finished-at="2024-10-17T11:23:43 IST" duration-ms="3955">
       <class name="HealthCheckTest">
-        <test-method is-config="true" signature="setBaseTest()[pri:0, instance:HealthCheckTest@5505ae1a]" started-at="2024-10-17T10:34:59 IST" name="setBaseTest" finished-at="2024-10-17T10:35:00 IST" duration-ms="690" status="PASS">
+        <test-method is-config="true" signature="setBaseURI()[pri:0, instance:HealthCheckTest@73cd37c0]" started-at="2024-10-17T11:23:39 IST" name="setBaseURI" finished-at="2024-10-17T11:23:39 IST" duration-ms="666" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setBaseTest -->
-        <test-method signature="testHealthCheckEndpoint()[pri:0, instance:HealthCheckTest@5505ae1a]" started-at="2024-10-17T10:35:00 IST" name="testHealthCheckEndpoint" finished-at="2024-10-17T10:35:03 IST" duration-ms="3489" status="FAIL">
+        </test-method> <!-- setBaseURI -->
+        <test-method signature="testHealthCheckEndpoint()[pri:0, instance:HealthCheckTest@73cd37c0]" started-at="2024-10-17T11:23:39 IST" name="testHealthCheckEndpoint" finished-at="2024-10-17T11:23:42 IST" duration-ms="3156" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -52,7 +52,7 @@ at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCal
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
 at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-at HealthCheckTest.testHealthCheckEndpoint(HealthCheckTest.java:14)
+at HealthCheckTest.testHealthCheckEndpoint(HealthCheckTest.java:15)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)

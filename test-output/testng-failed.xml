@@ -6,7 +6,7 @@
       <class name="HealthCheckTest">
         <methods>
           <include name="testHealthCheckEndpoint"/>
-          <include name="setBaseTest"/>
+          <include name="setBaseURI"/>
         </methods>
       </class> <!-- HealthCheckTest -->
     </classes>
